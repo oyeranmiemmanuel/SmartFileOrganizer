@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.py[cod]
 .venv/
@@ -5,10 +6,30 @@ venv/
 .env
 .env.*
 !.env.example
-dist/
+
+# Test and tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build output (the .spec files ARE tracked)
 build/
+dist/
+
+# Logs, OS and editor files
 *.log
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+
+
+# Python virtual environments
+.venv*/
+**/.venv*/
+
+# Local source/build archives
+*.zip
