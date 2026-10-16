@@ -1,0 +1,1 @@
+"""CustomTkinter screens. Only app.py and the modules here import customtkinter."""
